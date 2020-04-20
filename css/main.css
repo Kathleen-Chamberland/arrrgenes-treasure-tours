@@ -28,8 +28,13 @@ html {
 }
 
 .nav a:focus {
-  outline-color: #fff;
-  background-color: #000;
+  outline: #fff;
+  background-color: #fff;
+  color: #522806;
+}
+
+.nav a span {
+  border-bottom: .3rem solid #bea59b;
 }
 
 .nav a:hover span,
@@ -40,6 +45,7 @@ html {
 .banner {
   min-height: 16em;
   color: #fff;
+  background-color: #000;
 }
 
 .card {
@@ -70,6 +76,7 @@ html {
   background-color: #bea59b;
   border-color: #fff;
   color: #522806;
+  outline-color: #fff;
 }
 
 .footer {
